@@ -1,0 +1,110 @@
+/* START Style for Universal Selectors */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --yellow-color: #ffe254;
+    --lgrey-color: #c6cbd0;
+    --mgrey-color: #888888;
+    --dgrey-color: #555555;
+    --primary-font: Helvetica, Arial, sans-serif;
+  }
+/* END Style for Universal Selectors */
+/* START Style for Body Elements */
+body {
+    background-color: #eeeef8;
+    font-family: var(--primary-font);
+}
+
+p {
+    font-size: 16px;
+}
+/* END Style for Body Elements */
+/* START Style for Header Elements */
+header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 35px;
+    background-color: var(--dgrey-color);
+    background-size: cover;
+    background-position: center 80%;
+    background-attachment: fixed;
+    z-index: 9999;
+    font-family: var(--primary-font);
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 28px;
+    color: var(--lgrey-color);
+    background-color: var(--mgrey-color);
+  }
+
+header h1 .seo {
+    color: var(--yellow-color);
+    font-size: 36px;
+}
+
+header nav {
+    padding: 30px, auto, auto, 30px;
+    margin-right: 60px;
+    float: right;
+    font-family: var(--primary-font);
+    font-size: 20px;
+    color: var(--yellow-color);
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    border-bottom: 2px solid var(--lgrey-color);
+    padding-bottom: 5px;
+}
+
+header nav ul li a {
+    font-style: italic;
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+/* END Style for Header Elements */
+/* START Style for Hero Section Elements */
+.hero {
+    background-image: url('../images/hero.jfif');
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-attachment: fixed;
+    padding: 50px;
+    }
+
+.hero h2 {
+    color: var(--dgrey-color);
+    font-size: 24px;
+    text-align: center;
+    background-color: var(--yellow-color);
+    border-radius: 15px;
+    padding: 10px;
+    width: 450px;
+    }
+/* END Style for Hero Section Elements */
+
