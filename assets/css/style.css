@@ -10,12 +10,13 @@
     --lgrey-color: #c6cbd0;
     --mgrey-color: #888888;
     --dgrey-color: #555555;
+    --lightestgrey-color: #eeeef8;
     --primary-font: Helvetica, Arial, sans-serif;
   }
 /* END Style for Universal Selectors */
 /* START Style for Body Elements */
 body {
-    background-color: #eeeef8;
+    background-color: var(--lightestgrey-color);
     font-family: var(--primary-font);
 }
 
@@ -33,6 +34,9 @@ header {
     background-size: cover;
     background-position: center 80%;
     background-attachment: fixed;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     z-index: 9999;
     font-family: var(--primary-font);
 }
@@ -69,8 +73,6 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
-    border-bottom: 2px solid var(--lgrey-color);
-    padding-bottom: 5px;
 }
 
 header nav ul li a {
@@ -80,7 +82,15 @@ header nav ul li a {
     font-size: 1.55vw;
     color: var(--primary-color);
     text-decoration: none;
-  }
+    border-bottom: 2px solid var(--lgrey-color);
+    padding-bottom: 5px;
+}
+
+header nav ul li a:hover {
+    background: var(--dgrey-color);
+    color: var(--lgrey-color);
+    border-radius: 15px;
+}
 /* END Style for Header Elements */
 /* START Style for Hero Section Elements */
 .hero {
@@ -105,6 +115,29 @@ header nav ul li a {
     border-radius: 15px;
     padding: 10px;
     width: 450px;
+    font-weight: bold;
     }
 /* END Style for Hero Section Elements */
+/* Begin Style for Content Section Elements */
+.content {
+    margin: 40px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.content-titles {
+    flex: 1 20%;
+    color: var(--dgrey-color);
+    font-size: 36px;
+    text-align: right;
+    padding: 15px;
+}
 
+.content-details {
+    flex: 2 80%;
+    border-left: 3px solid;
+    padding: 30px;
+}
+/* END Style for Content Section Elements */
