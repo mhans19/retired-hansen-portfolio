@@ -185,11 +185,11 @@ header nav ul li a:hover {
 .run-buddy {
     grid-column: 1 / span 2; 
     grid-row: 1 / span 2; 
-    background-image: url('../images/hero.jpg');
+    background-image: url('../images/runbuddy.jpg');
     }
 
-.surf{
-    background-image: url('../images/surf.jpg');
+.horiseon{
+    background-image: url('../images/horiseon.jpg');
     }
 
 .pastel{
