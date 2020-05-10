@@ -13,7 +13,6 @@ Morgan Hansen <br>
 (208)807-4913<br>
 mdhansen19@gmail.com <br>
 <br>
-<br>
 # Purpose<br>
 A professional portfolio website that includes an 'About', 'Work', and 'Contact' section. This portfolio will serve as a first development for a portfolio and will continue to be developed as more projects and content are applicable.<br>
 <br>
@@ -21,7 +20,7 @@ A professional portfolio website that includes an 'About', 'Work', and 'Contact'
 AS AN employer<br>
 I WANT to view a potential employee's deployed portfolio of work samples<br>
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position<br>
-<br><br>
+<br>
 # Acceptance Criteria <br>
 GIVEN I need to sample a potential employee's previous work<br>
 WHEN I load their portfolio<br>
