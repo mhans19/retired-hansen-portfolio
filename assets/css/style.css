@@ -94,8 +94,8 @@ header nav ul li a:hover {
     background-image: url('../images/hero.jpg');
     height: 500px;
     width: 100%;
-    background-size: cover;
-    background-position: center;
+    background-size: 100%;
+    background-position: bottom;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
@@ -174,6 +174,7 @@ header nav ul li a:hover {
     background-color: var(--yellow-color);
     font-weight: bold;
     margin-bottom: 30px;
+    text-decoration: underline var(--yellow-color);
 }
   
 .work-grid-item h3 p {
@@ -257,19 +258,8 @@ header nav ul li a:hover {
         font-size: 20px;
     }
 
-    header nav ul li a:hover {
-        display: none;
-    }
-
     .hero {
-        height: 300px;
-        width: 100%;
-        background-size: cover;
-        background-position: top;
-    }
-
-    .work-grid-item:hover {
-        display: none;
+        background-position: center;
     }
 
     .work-grid-item {
@@ -278,10 +268,6 @@ header nav ul li a:hover {
 
     .content-titles {
         font-size: 24px;
-    }
-
-    .content ul li a:hover {
-        display: none;
     }
 }
 /* BEGIN media query for tablets and smaller */
@@ -321,6 +307,7 @@ header nav ul li a:hover {
 
     .hero {
         height: 150px;
+        background-position: bottom;
     }
 
     .hero h2 {
