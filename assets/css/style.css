@@ -29,7 +29,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     display: flex;
-    padding: 20px 35px;
+    padding: 20px 0px;
     background-color: var(--dgrey-color);
     background-size: cover;
     background-position: center 80%;
@@ -43,15 +43,12 @@ header {
 
 header h1 {
     font-weight: bold;
-    font-size: 28px;
-    color: var(--lgrey-color);
-    background-color: var(--mgrey-color);
+    font-size: 40px;
+    color: var(--dgrey-color);
+    background-color: var(--yellow-color);
+    margin: 0px;
+    padding: 0px 5px 0px 40px;
   }
-
-header h1 .seo {
-    color: var(--yellow-color);
-    font-size: 36px;
-}
 
 header nav {
     padding: 30px, auto, auto, 30px;
@@ -137,13 +134,15 @@ header nav ul li a:hover {
 
 .content-details {
     flex: 2 80%;
-    border-left: 3px solid;
+    border-left: 3px solid var(--dgrey-color);
     padding: 30px;
 }
 /* END Style for All Content Section Elements */
 /* Begin Style for About Me Section Elements */
-
-
+.content-details p{
+    font-size: 18px;
+    color: var(--dgrey-color);
+}
 /* END Style for About Me Section Elements */
 /* Begin Style for Work Section Elements */
 
@@ -168,7 +167,7 @@ header nav ul li a:hover {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    color: var(--primary-color);
+    color: var(--dgrey-color);
     text-decoration: none;
     border-bottom: 2px solid var(--lgrey-color);
     padding-bottom: 5px;
