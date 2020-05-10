@@ -146,7 +146,62 @@ header nav ul li a:hover {
 /* END Style for About Me Section Elements */
 /* Begin Style for Work Section Elements */
 
+.work-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 10px;
+}
 
+.work-grid-item {
+    border: 3px solid var(--yellow-color);
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    opacity: .5;
+    display: flex;
+    align-items: flex-end; 
+    position: relative;
+    overflow: hidden;
+}
+
+.work-grid-item:hover {
+    opacity: .75;
+  }
+
+.work-grid-item h3 {
+    color: var(--dgrey-color);
+    font-size: 24px;
+    background-color: var(--yellow-color);
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+  
+.work-grid-item h3 p {
+    font-size: 18px;
+}
+
+.run-buddy {
+    grid-column: 1 / span 2; 
+    grid-row: 1 / span 2; 
+    background-image: url('../images/hero.jpg');
+}
+
+.surf{
+    background-image: url('../images/surf.jpg');
+}
+
+.pastel{
+    background-image: url('../images/puzzle.jpg');
+}
+
+.led{
+    background-image: url('../images/led.jpg');
+}
+
+.calc{
+    background-image: url('../images/calculator.jpg');
+}
 /* END Style for Work Section Elements */
 /* Begin Style for Contact Me Section Elements */
 .content ul {
