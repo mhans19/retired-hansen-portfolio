@@ -118,7 +118,7 @@ header nav ul li a:hover {
     font-weight: bold;
     }
 /* END Style for Hero Section Elements */
-/* Begin Style for Content Section Elements */
+/* Begin Style for All Content Section Elements */
 .content {
     margin: 40px auto;
     width: 90%;
@@ -140,4 +140,43 @@ header nav ul li a:hover {
     border-left: 3px solid;
     padding: 30px;
 }
-/* END Style for Content Section Elements */
+/* END Style for All Content Section Elements */
+/* Begin Style for About Me Section Elements */
+
+
+/* END Style for About Me Section Elements */
+/* Begin Style for Work Section Elements */
+
+
+/* END Style for Work Section Elements */
+/* Begin Style for Contact Me Section Elements */
+.content ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+.content ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.content ul li a {
+    font-style: italic;
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    color: var(--primary-color);
+    text-decoration: none;
+    border-bottom: 2px solid var(--lgrey-color);
+    padding-bottom: 5px;
+}
+
+.content ul li a:hover {
+    background: var(--dgrey-color);
+    color: var(--lgrey-color);
+    border-radius: 15px;
+}
+/* END Style for Contact Me Section Elements */
